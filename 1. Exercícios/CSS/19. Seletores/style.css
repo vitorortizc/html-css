@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* Em HTML, tudo que for id, em CSS será # sendo que somente um elemento pode ter o mesmo id.
+   Em HTML, tudo que for class, em CSS será . sendo que um ou mais elementos podem ter o mesmo id.
+*/
+
+body {
+  background-color: #e2f5ba;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #313629;
+}
+
+h1#principal {
+  text-align: center;
+  background-color: #313629;
+  color: white;
+}
+
+h2 {
+  color: #6c7559;
+}
+
+.basico {
+  color: green;
+}
+
+.intermediario {
+  color: yellow;
+}
+
+.avancado {
+  color: red;
+}
+
+.destaque {
+  background-color: rgba(203, 206, 46, 0.494);
+}

@@ -1,0 +1,27 @@
+_________________________________________________________
+
+1. Add the following command to the stylesheet:
+_________________________________________________________
+
+:root {
+  --color0: COLOR;
+
+  --font0: FONT NAME, FONT TYPE;
+}
+
+NOTE: --color0 and --font0 can be any name, choose at your discretion.
+_________________________________________________________
+
+2. Type var and choose from the dropdown menu.
+_________________________________________________________
+
+E.g:
+
+body {
+background-color: var(--color0);
+}
+
+body {
+font-family: var(--font0);
+}
+_________________________________________________________

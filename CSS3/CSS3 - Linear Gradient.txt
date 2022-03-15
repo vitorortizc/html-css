@@ -1,0 +1,1 @@
+background-image: linear-gradient(to right, var(--cor1), transparent);

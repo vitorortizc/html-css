@@ -1,0 +1,61 @@
+___________________________________________________________
+
+1. Responsive Images
+___________________________________________________________
+
+→ Create a paste called img inside of your hmtl folder and paste the desired image.
+
+→ Add the desired image with the <img/> tag:
+
+
+     <img
+       src="img/desired-img.png"
+       alt="Desired Image"
+     />
+
+
+→ Wrap the <img> on a <picture></picture> tag:
+
+
+     <picture>
+       <img
+         src="img/desired-img.png"
+         alt="Desired Image"
+       />
+     </picture>
+
+
+→ Widen and shorten the browser in order to check the maximun width of the image you want to use. Afterwards, you will be able to create one or more smaller versions of the desired image on Photoshop. Save them on the img folder as well.
+
+→ Add a source:media command line inside of our <picture> tag, above the <img> tag:
+
+
+     <picture>
+       <source
+         media="(max-width: 500px)"
+         srcset="img/smaller-desired-img.png"
+       />
+       <img
+         src="img/desired-img.png"
+         alt="Desired Image"
+       />
+     </picture>
+
+→ For the <source media="(max-width: 500px)" add the maximun width of the image and for srcset="img/smaller-desired-img.png" add the smaller desired image.
+
+Now, whenever you shorten the browser and it hits the max-width, the image will change to the shorter version.
+
+___________________________________________________________
+
+2. Centralizing Images
+___________________________________________________________
+
+
+→ Per standard, an image is not a block, therefore, set a max-width, margin auto and the display as block:
+
+img {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+

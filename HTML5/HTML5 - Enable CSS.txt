@@ -1,0 +1,21 @@
+________________________________________________________
+
+1. External CSS (style.css)
+________________________________________________________
+
+Inside the <head></head> tag, use the command link:css
+
+The following command line will be generated:
+
+<link rel="stylesheet" href="style.css">
+
+CTRL + Click on the href value in order to create a new stylesheet.
+________________________________________________________
+
+2. Internal CSS
+________________________________________________________
+
+Inside the <head></head> tag, create a <style></style> tag.
+________________________________________________________
+
+

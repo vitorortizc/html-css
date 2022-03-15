@@ -1,0 +1,45 @@
+<div>
+ <iframe></iframe>
+</div>
+
+_____________________________________________________________
+
+tag1 {
+position: relative;
+}
+
+tag2 {
+position: absolute;
+}
+
+_____________________________________________________________
+
+We can now move tag2 with top/right/bottom and left attributes:
+_____________________________________________________________
+
+tag1 {
+  position: relative;
+}
+
+tag2 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+_____________________________________________________________
+
+The same works for the height and width:
+_____________________________________________________________
+
+tag1 {
+  position: relative;
+}
+
+tag2 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}

@@ -1,0 +1,38 @@
+_________________________________________________________
+
+1. External Fonts
+_________________________________________________________
+
+→ Copy and paste the @import code into the <head> of your html or into your stylesheet:
+
+→ Font Bebas Neue (https://fonts.google.com/specimen/Bebas+Neue?query=BEBAS):
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+→ Copy and use the CSS rule to specify the font family:
+
+body {
+  font-family: 'Bebas Neue', cursive;
+}
+_________________________________________________________
+
+2. Internal Fonts
+_________________________________________________________
+
+→ Create a folder called Fonts and save the desired font inside.
+
+→ Use the following command line into the <head> of your html or into your stylesheet to enable the font:
+
+@font-face {
+  font-family: "NAME";
+  src: url("../Fonts/NAME.otf");
+}
+
+→ Use the NAME chosen as value for the font-family attribute:
+
+body {
+  font-family: "NAME";
+}
+_________________________________________________________
+
+OBS: Both methods above can be added to the root after doing the processes above.

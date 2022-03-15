@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes em CSS</title>
+    <style>
+      body {
+        /* OBS: Nem todas as fontes possuem todas as atribuições abaixo disponíveis. Verifique a fonte ou família escolhida. */
+
+        font-family: serif;
+        /* Medidas Absolutas (font-size):
+        centimetro (cm),
+        milímetro (mm),
+        polegada (in),
+        pixel (px),
+        ponto (pt),
+        pica (pc).
+        
+        Medidas Relativas (font-size):
+        altura do M maísculo (em),
+        relativo a altura x (ex),
+        relativo ao root, fonte configurada no body (rem),
+        largura da viewport ou da tela (vw),
+        altura da viewport ou da tela (vh),
+        (%).
+        
+        OBS: 16px é o tamanho padrão (16px = 1em).As medidas recomendadas pela W3C são PX para absolutas e EM para Relativas.
+        */
+        font-size: 1em;
+
+        /* Pesos de Fonte (font-weight):
+        lighter,
+        normal,
+        bold,
+        bolder
+        de 100 a 900.*/
+        font-weight: 300;
+
+        /* Estilos de Fonte (font-style):
+        italic,
+        normal,
+        oblique*/
+        font-style: oblique;
+
+        /* Decoração de Fonte (font-decoration):
+        dashed,
+        dotted,
+        double,
+        line-through,
+        none,
+        overline,
+        solid,
+        underline,
+        waved.
+        */
+        text-decoration: dotted;
+      }
+
+      h1 {
+        /* Shorthand para Fonte:
+        font-style → font-weight → font-size → font-family */
+        font: italic bolder 3em "Work Sans", sans-serif;
+      }
+
+      h2 {
+        font: bold 2em "Work Sans";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde facilis
+      minus optio libero vel sit repellendus nisi ratione corrupti adipisci
+      accusantium, earum iure, dicta distinctio id rem, voluptas veniam.
+      Voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Quibusdam nostrum iusto unde at rerum nulla voluptas rem delectus
+      accusantium laborum culpa animi, possimus nisi neque quaerat, et fugit
+      veritatis magni!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima
+      consequuntur autem repellat, quisquam neque? Dolores autem culpa
+      reiciendis reprehenderit tenetur possimus distinctio blanditiis quis, fuga
+      beatae vero exercitationem natus.
+    </p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, blanditiis
+      ipsum odio distinctio excepturi velit, repellat quaerat animi vero
+      possimus eius ratione eveniet optio sunt nemo nulla nisi tempora
+      accusantium? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      Ratione hic repudiandae omnis excepturi non sint facere iusto, illum
+      labore neque perspiciatis exercitationem officiis nesciunt. Omnis porro
+      consequuntur magnam iusto nulla.
+    </p>
+  </body>
+</html>
