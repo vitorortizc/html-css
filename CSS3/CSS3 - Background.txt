@@ -1,0 +1,26 @@
+_____________________________________________________________
+
+Background
+_____________________________________________________________
+
+background-color: black;
+background-image: url(img/wallpaper002.jpg);
+background-position: center center;
+background-repeat: repeat-y;
+background-size: cover;
+background-attachment: fixed;
+
+_____________________________________________________________
+
+Background Shorthand
+_____________________________________________________________
+
+color > image > position > repeat > / > [size] > attachment
+
+
+      body {
+        background: black url(img/wallpaper002.jpg) center center / cover no-repeat fixed;
+      }
+
+OBS: For the shorthand, > means space between words.
+
